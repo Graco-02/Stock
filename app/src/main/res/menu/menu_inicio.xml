@@ -3,9 +3,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/ini_menu_usuarios"
-        android:icon="@drawable/usuarios2"
-        android:title="usuarios"
+        android:id="@+id/ini_menu_articulos"
+        android:icon="@drawable/listado2"
+        android:title="articulos"
         android:visible="true"
         app:showAsAction="ifRoom" />
 </menu>

@@ -28,6 +28,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 import com.example.stock.entidades.usuario;
+import com.example.stock.incio;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -59,6 +60,8 @@ public class MainActivity extends AppCompatActivity {
                 try{
                     get_valdiar_acceso(txt_usuario.getText().toString()
                             ,txt_usuario_clave.getText().toString());
+
+
                 }catch (Exception e){
                     Toast.makeText(getApplicationContext(), "A OCURRIDO UN ERROR AL INTENTAR ACCEDER",
                             Toast.LENGTH_SHORT).show();
@@ -92,6 +95,15 @@ public class MainActivity extends AppCompatActivity {
                         com.example.stock.entidades.usuario.estado = response.getInt("estado");
                         com.example.stock.entidades.usuario.clave = response.getString("clave");
                         com.example.stock.entidades.usuario.fecha_alta = response.getString("fecha_alta");
+
+
+                        Toast.makeText(MainActivity.this,
+                                "Acceso correco "+com.example.stock.entidades.usuario.nombres,
+                                Toast.LENGTH_SHORT).show();
+
+                        Intent i = new Intent(MainActivity.this,com.example.stock.incio.class);
+                        startActivity(i);
+
                     }else{
                         Toast.makeText(MainActivity.this,
                                 "ERROR AL INTENTAR ACCEDER USUARIO O CLAVE ERRONEOS",

@@ -5,7 +5,10 @@
       <map>
         <entry key="..\:/Users/FFerr/AndroidStudioProjects/Stock/app/src/main/res/layout/acceso_usuario.xml" value="0.18" />
         <entry key="..\:/Users/FFerr/AndroidStudioProjects/Stock/app/src/main/res/layout/activity_alta_usuario.xml" value="0.25" />
+        <entry key="..\:/Users/FFerr/AndroidStudioProjects/Stock/app/src/main/res/layout/activity_articulos_adm.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/FFerr/AndroidStudioProjects/Stock/app/src/main/res/layout/activity_incio.xml" value="0.17028985507246377" />
         <entry key="..\:/Users/FFerr/AndroidStudioProjects/Stock/app/src/main/res/layout/activity_main.xml" value="0.203125" />
+        <entry key="..\:/Users/FFerr/AndroidStudioProjects/Stock/app/src/main/res/layout/articulo_formato_lista.xml" value="0.1" />
         <entry key="..\:/Users/FFerr/AndroidStudioProjects/Stock/app/src/main/res/menu/menu_inicio.xml" value="0.20416666666666666" />
       </map>
     </option>
